@@ -1,0 +1,125 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FCFAEE;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-bottom: 40px;
+    color: #B8001F;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 0 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 50%;
+    margin:14px 0;
+}
+
+iframe{
+    width: 50%;
+    min-height: 50vh;
+}
+
+@media screen and (max-width : 450px) {
+    img{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+        min-height: 50vh;
+    }
+}
+
+a{
+    text-align: center;
+    background:  #507687;
+    padding: 10px 18px;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0;
+    color: #fff;
+    background-color: #507687;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#hero{
+    width: 100%;
+    display: flex;
+    min-height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    animation: fadeIn 3.5s;
+}
+
+#video{
+    background-color: #384B70;
+    padding: 20px 0;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* ------------------ HOME BUTTON -------------------*/
+
+#button-home{
+    width: 96px;
+    height: 96px;
+    background-color: #e6324b;
+    border-radius: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#button-home a{
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: block;
+    font-weight: bold;
+    background-color: unset;
+}
